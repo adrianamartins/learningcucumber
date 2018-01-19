@@ -1,2 +1,5 @@
 # learningcucumber
-learning cucumber and git
+
+## Comandos da Linha de Comandos
+
+ls -l
