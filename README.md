@@ -2,4 +2,5 @@
 
 ## Comandos da Linha de Comandos
 
-ls -l
+ls -l = listas/pastas criadas por ordem  cronologica
+
