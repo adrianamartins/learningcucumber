@@ -1,5 +1,6 @@
 Given("i am a qa learning automation testing") do
   puts 'oi'
+  visit '/'
 end
 
 When("the screen is displayed") do
