@@ -1,13 +1,16 @@
-# learningcucumber
 
-## Comandos da Linha de Comandos
 
+# Comandos da Linha de Comandos
+
+## Gerais
+
+>> clear <enter>    =limpar linha de comandos
 
 >> ctrl + c	= skip
 
 >> ctrl + l	= limpa linha de comandos
 
->> rm -rf *	= remove o ficheiro/diretoria * e todos os ficheiros/diretorias subsequentes
+>> rm -rf *	= remove o ficheiro/diretoria * e todos os ficheiros/diretorias subsequentes incluindo o próprio ficheiro
 
 >> pwd		= mostrar localização actual
 
@@ -25,13 +28,19 @@
 
 >> mkdir *	= criar pasta *
 
+>> cat file = ver conteúdo do file
+
+>> vi file = abrir file
+
 >> tab		= autocomplete
+
+## Comandos do Git
 
 >> git clone (repositorio SSH)	= clonar o repositório para o pc
 
 >> git status 	= mostra tudo o que foi alterado desde o último commit e o branch em que estou
 
->> git add *
+>> git add (file name)  =prepare the content of the file for the commit
 
 >> git commit -m "comentario das alterações"
 
@@ -39,7 +48,19 @@
 
 >> git pull	=actualizar o repositorio no pc
 
->> git diff (commit id)	=para visualizar alterações no commit, commit id vem quando fazemos push 
+>> git diff (commit id)	=para visualizar alterações no commit, commit id vem quando fazemos push
+
+>> git checkout -b ([Iniciais]+nome da feature) - criar branch [Iniciais]+nome da feature
+
+
+## Comandos do Cucumber
+
+>> cucumber --init  =criar projecto
+
+>> cucumber -h      = ver comandos do cucumber
+
+>>
 
 
 
+>> atom (diretoria/ficheiro a abrir)

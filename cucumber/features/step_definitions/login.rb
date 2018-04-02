@@ -1,13 +1,13 @@
-Given("I am on the login page as a customer") do
-  visit ('/conta')
-end
+Classe login
 
-When("I fill the fields correctly") do
+def login_private_customer
+  visit ('/conta')
   find(:css, '#login').set('adriana.martins@olx.com')
   find(:css, '#password').set('fixeads')
   click_button 'Iniciar sessão'
+  expect(page).to have_current_path('/')
 end
 
-Then("the login is executed successfully") do
-  expect(page).to have_current_path('/')
+def login_agency
+
 end
